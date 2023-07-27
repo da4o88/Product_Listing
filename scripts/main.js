@@ -37,7 +37,7 @@ class MyFooter extends HTMLElement {
         this.innerHTML = `
         <footer class="footer fixed-bottom">
          <section class="d-flex justify-content-center">
-            <span>&copy; 2023 da40</span>
+            <span>&copy; 2023 da4o</span>
          </section>
             
         </footer>

@@ -14,10 +14,17 @@ footer {
     height: 500px;
 }
 
+.categories-menu {
+    margin-top: 10px;
+}
 
 /* buttons  */
 .button-more {
     /* border: solid 1px #ffffff00; */
     margin-bottom: 30px;
 
+}
+
+.button-sort {
+    z-index: 4;
 }
