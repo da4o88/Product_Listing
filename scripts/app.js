@@ -1,4 +1,4 @@
-let apiUrl = "https://fakestoreapi.com/products"
+let apiUrlAllProducts = "https://fakestoreapi.com/products"
 
 
 async function fetchProducts(url) {
@@ -53,4 +53,4 @@ function displayProducts(products) {
   }
 }
 
-fetchProducts(apiUrl);
+fetchProducts(apiUrlAllProducts);

@@ -1,20 +1,35 @@
-body {
-    background-color: #ccc;
+body {    
+    background-color: #f7f1f2;
     margin: 0px;
     padding: 0px;
 }
-
+.navbar-bck {
+    background-color: #d1c1c4;
+    color: #90737a;
+}
 footer {
-    background-color: #f8f9fa;
+    background-color: #5b373D;
+    color: #9ca7c4;
+    margin-top: 15px;
+    
 }
 
 .main-container {
     margin-top: 60px;
+    padding-bottom: 15px;
     width: 100%;
     height: 500px;
 }
 
 .categories-menu {
+    margin-top: 10px;
+}
+
+.categories-title {
+    background-color: #d1c1c4;
+}
+
+.filter {
     margin-top: 10px;
 }
 
@@ -26,6 +41,8 @@ footer {
 }
 
 .button-sort {
+    background-color: #5b373D;
+    color: #9ca7c4;
     z-index: 4;
 }
 
