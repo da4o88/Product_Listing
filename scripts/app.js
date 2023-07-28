@@ -1,5 +1,12 @@
 let apiUrlAllProducts = "https://fakestoreapi.com/products"
-
+let apiUrlCategories = "https://fakestoreapi.com/products/category/" // + "category name"
+let categoryNames = [
+  "men's clothing",
+  "women's clothing",
+  "jewelery",
+  "electronics"
+  ]
+  let url = apiUrlCategories + categoryNames[0];
 
 async function fetchProducts(url) {
     try {
@@ -53,4 +60,29 @@ function displayProducts(products) {
   }
 }
 
-fetchProducts(apiUrlAllProducts);
+// Choose a category
+
+function chooseCategory(name) {
+
+  if (name === categoryNames[0]) {
+    url = apiUrlCategories + categoryNames[0];
+    
+    console.log(url);
+  } else if (name === categoryNames[1]) {
+    url = apiUrlCategories + categoryNames[1]
+    console.log(url);
+  } else if (name === categoryNames[2]) {
+    url = apiUrlCategories + categoryNames[2]
+    console.log(url);
+  } else if (name === categoryNames[3]) {
+    url = apiUrlCategories + categoryNames[3]
+    console.log(url);
+  } else {
+    url = apiUrlCategories + categoryNames[0];
+  }
+
+  fetchProducts(url);
+}
+
+// fetchProducts(apiUrlAllProducts);
+fetchProducts(url);
